@@ -1,0 +1,60 @@
+[
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [
+      "domain:example.com",
+      "domain:example2.com"
+    ],
+    "protocol": []
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "protocol": []
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:cn",
+      "geosite:private",
+      "geosite:google-cn",
+      "geosite:tld-cn",
+      "geosite:category-games@cn"
+    ],
+    "protocol": []
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "geosite:geolocation-!cn",
+      "geosite:tld-!cn",
+      "geosite:gfw",
+      "geosite:greatfire"
+    ],
+    "protocol": []
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [],
+    "protocol": []
+  }
+]
