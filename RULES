@@ -8,15 +8,12 @@
     ]
   },
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "proxy",
-    "ip": [],
     "domain": [
       "domain:example.com",
       "domain:example2.com"
-    ],
-    "protocol": []
+    ]
   },
   {
     "inboundTag": [],
@@ -26,6 +23,7 @@
     ]
   },
   {
+    "port": "",
     "inboundTag": [],
     "outboundTag": "direct",
     "ip": [
@@ -36,8 +34,10 @@
       "geosite:private",
       "geosite:google-cn",
       "geosite:tld-cn",
-      "geosite:category-games@cn"
-    ]
+      "geosite:category-games@cn",
+      "geosite:apple"
+    ],
+    "protocol": []
   },
   {
     "inboundTag": [],
