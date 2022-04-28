@@ -6,8 +6,10 @@
       "domain:example.com",
       "domain:example2.com",
       "domain:notion.so",
-      "doamin:downloadmirror.intel.com"
-    ]
+      "doamin:downloadmirror.intel.com",
+      "domain:xvideos-cdn.com"
+    ],
+    "enabled": true
   },
   {
     "inboundTag": [],
@@ -15,23 +17,16 @@
     "domain": [
       "domain:example.com",
       "domain:example2.com"
-    ]
+    ],
+    "enabled": true
   },
   {
     "inboundTag": [],
     "outboundTag": "block",
     "domain": [
       "geosite:category-ads-all"
-    ]
-  },
-  {
-    "inboundTag": [],
-    "outboundTag": "proxy",
-    "domain": [
-      "geosite:geolocation-!cn",
-      "geosite:gfw",
-      "geosite:greatfire"
-    ]
+    ],
+    "enabled": true
   },
   {
     "inboundTag": [],
@@ -41,17 +36,28 @@
       "geoip:private"
     ],
     "domain": [
-      "geosite:cn",
-      "geosite:private",
-      "geosite:google-cn",
-      "geosite:tld-cn",
+      "geosite:apple",
       "geosite:category-games@cn",
-      "geosite:apple"
-    ]
+      "geosite:cn",
+      "geosite:google-cn",
+      "geosite:private",
+      "geosite:tld-cn"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:gfw",
+      "geosite:greatfire"
+    ],
+    "enabled": true
   },
   {
     "port": "0-65535",
     "inboundTag": [],
-    "outboundTag": "direct"
+    "outboundTag": "direct",
+    "enabled": true
   }
 ]
