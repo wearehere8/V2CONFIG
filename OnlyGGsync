@@ -1,0 +1,52 @@
+[
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "domain": [
+      "domain:example.com",
+      "domain:example2.com",
+      "domain:notion.so",
+      "doamin:downloadmirror.intel.com"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn",
+      "geoip:private"
+    ],
+    "domain": [
+      "geosite:apple",
+      "geosite:category-games@cn",
+      "geosite:cn",
+      "geosite:google-cn",
+      "geosite:private",
+      "geosite:tld-cn"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:goolge"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "enabled": true
+  }
+]
