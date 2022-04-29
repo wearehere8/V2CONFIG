@@ -39,7 +39,7 @@
     "inboundTag": [],
     "outboundTag": "proxy",
     "domain": [
-      "geosite:goolge"
+      "geosite:google"
     ],
     "enabled": true
   },
