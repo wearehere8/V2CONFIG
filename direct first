@@ -3,9 +3,11 @@
     "inboundTag": [],
     "outboundTag": "direct",
     "domain": [
+      "doamin:downloadmirror.intel.com",
       "domain:example.com",
       "domain:example2.com",
       "domain:notion.so",
+      "domain:vazyme.com",
       "doamin:downloadmirror.intel.com",
       "domain:xvideos-cdn.com"
     ],
@@ -16,7 +18,8 @@
     "outboundTag": "proxy",
     "domain": [
       "domain:example.com",
-      "domain:example2.com"
+      "domain:example2.com",
+      "domain:addons.mozilla.org"
     ],
     "enabled": true
   },
@@ -36,12 +39,12 @@
       "geoip:private"
     ],
     "domain": [
-      "geosite:apple",
-      "geosite:category-games@cn",
       "geosite:cn",
-      "geosite:google-cn",
       "geosite:private",
-      "geosite:tld-cn"
+      "geosite:google-cn",
+      "geosite:tld-cn",
+      "geosite:category-games@cn",
+      "geosite:apple"
     ],
     "enabled": true
   },
