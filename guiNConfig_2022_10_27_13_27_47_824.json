@@ -1,0 +1,982 @@
+{
+  "logEnabled": false,
+  "loglevel": "error",
+  "indexId": "4873971026867944810",
+  "muxEnabled": true,
+  "sysProxyType": 0,
+  "enableStatistics": true,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 1,
+  "remoteDNS": "",
+  "domainStrategy4Freedom": "",
+  "defAllowInsecure": true,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "mph",
+  "routingIndex": 4,
+  "enableRoutingAdvanced": true,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": "",
+  "systemProxyAdvancedProtocol": "",
+  "autoUpdateInterval": 0,
+  "autoUpdateSubInterval": 0,
+  "checkPreReleaseUpdate": false,
+  "enableSecurityProtocolTls13": false,
+  "trayMenuServersLimit": 30,
+  "inbound": [
+    {
+      "localPort": 5321,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true,
+      "allowLANConn": false,
+      "user": "",
+      "pass": ""
+    }
+  ],
+  "vmess": [
+    {
+      "indexId": "5573749411210646536",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 10,
+      "address": "使用前记得更新订阅",
+      "port": 0,
+      "id": "6a3bcc08-9c77-4c02-844b-4a694c4f2fea",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "更新于:10-25 08:00 -by BuLink.xyz- 以下节点不计流量",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "True",
+      "testResult": "",
+      "subid": "ce872795-91b5-4c74-83f8-910009499909",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5500910288257758695",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 50,
+      "address": "lsrug-1037-v2-9.hkg-d-cmi.jd.cjhh.lol",
+      "port": 888,
+      "id": "caac6285-511c-4a07-b6db-edfbdcfe3889",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "github.com/freefq - 亚太地区  15",
+      "headerType": "none",
+      "requestHost": "node.inforun.work",
+      "path": "/je5x3pBN1vez3NQudNkB",
+      "streamSecurity": "tls",
+      "allowInsecure": "True",
+      "testResult": "  0.0 M/s",
+      "subid": "ce872795-91b5-4c74-83f8-910009499909",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5674305000129536417",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 60,
+      "address": "asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom",
+      "port": 888,
+      "id": "caac6285-511c-4a07-b6db-edfbdcfe3889",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "github.com/freefq - 美国加利福尼亚州费利蒙Hurricane Electric公司 16",
+      "headerType": "none",
+      "requestHost": "node.inforun.work",
+      "path": "/je5x3pBN1vez3NQudNkB",
+      "streamSecurity": "tls",
+      "allowInsecure": "True",
+      "testResult": "  0.0 M/s",
+      "subid": "ce872795-91b5-4c74-83f8-910009499909",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5055688174843604366",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 40,
+      "address": "64.112.126.4",
+      "port": 443,
+      "id": "8560c0b4-6f4b-45e6-9906-777650dcc310",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "github.com/freefq - 美国加州 17",
+      "headerType": "auto",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "True",
+      "testResult": "  0.0 M/s",
+      "subid": "ce872795-91b5-4c74-83f8-910009499909",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5107819169744267697",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 20,
+      "address": "以下BuLink节点计流量",
+      "port": 0,
+      "id": "6a3bcc08-9c77-4c02-844b-4a694c4f2fea",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "-欢迎使用BuLink自建分享节点 限月流量5G 免费资源请合理使用-",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "none",
+      "allowInsecure": "True",
+      "testResult": "",
+      "subid": "ce872795-91b5-4c74-83f8-910009499909",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "4873971026867944810",
+      "configType": 6,
+      "configVersion": 2,
+      "sort": 80,
+      "address": "xi.kanao.xyz",
+      "port": 58810,
+      "id": "d9db7cd4-8ad4-4f90-972b-512e9d527d54",
+      "alterId": 0,
+      "security": "",
+      "network": "tcp",
+      "remarks": "🇨🇳+CN+50",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "tls",
+      "allowInsecure": "True",
+      "testResult": "  0.5 M/s",
+      "subid": "5307339115100033830",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5564508231239714530",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 30,
+      "address": "使用前记得更新订阅",
+      "port": 0,
+      "id": "6a3bcc08-9c77-4c02-844b-4a694c4f2fea",
+      "alterId": 0,
+      "security": "auto",
+      "network": "tcp",
+      "remarks": "更新于:10-25 04:00 -by BuLink.xyz- 以下节点不计流量",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "True",
+      "testResult": "",
+      "subid": "5318976153022260955",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5483435206242442221",
+      "configType": 1,
+      "configVersion": 2,
+      "sort": 90,
+      "address": "172.64.154.102",
+      "port": 443,
+      "id": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
+      "alterId": 0,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "美国(TG频道:)",
+      "headerType": "none",
+      "requestHost": "clash6.ssr-free.xyz",
+      "path": "/dongtaiwang.com",
+      "streamSecurity": "tls",
+      "allowInsecure": "True",
+      "testResult": "  3.2 M/s",
+      "subid": "5318976153022260955",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    },
+    {
+      "indexId": "5498252092193198473",
+      "configType": 6,
+      "configVersion": 2,
+      "sort": 70,
+      "address": "1024tw01.tfzhc.top",
+      "port": 443,
+      "id": "94a08db5-db61-487a-b208-c66445f32737",
+      "alterId": 0,
+      "security": "",
+      "network": "tcp",
+      "remarks": "github.com/Pawdroid - 加拿大  15",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "tls",
+      "allowInsecure": "True",
+      "testResult": "  0.1 M/s",
+      "subid": "5318976153022260955",
+      "flow": "",
+      "sni": "",
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
+    }
+  ],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "subItem": [
+    {
+      "id": "fcd65acc-31d1-419c-ae8a-e921611e061b",
+      "remarks": "二爷",
+      "url": "https://jiang.netlify.com",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "1a1fcf54-4c98-46fd-9ea0-774071438bbe",
+      "remarks": "freefq",
+      "url": "https://cdn.jsdelivr.net/gh/freefq/free@master/v2",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "04b577ff-948d-487f-ba48-3cd2e82a4e7c",
+      "remarks": "fq",
+      "url": "https://purge.jsdelivr.net/gh/freefq/free@master/v2",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "8d937cfc-9ea5-4948-b12f-191efa233f64",
+      "remarks": "colatiger",
+      "url": "https://cdn.jsdelivr.net/gh/colatiger/v2ray-nodes/trojan.md",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "8c7d808c-4997-49b1-ac67-47d10b894ec8",
+      "remarks": "umelabs",
+      "url": "https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "3219c8f5-7218-4615-91b3-2875d7d41de1",
+      "remarks": "MM",
+      "url": "https://drive.google.com/uc?export=download&id=1KCfzuYRs_H3lif6964jfGvoELTXU2xRY",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "7233aa79-f62a-4966-977d-f8cd18298e14",
+      "remarks": "URL",
+      "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0911.txt",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "b3a33e8c-b621-4eec-9c9c-3c6c0d29112d",
+      "remarks": "aiboboxx",
+      "url": "https://cdn.jsdelivr.net/gh/aiboboxx/v2rayfree@main/v2",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "2b2d6476-df91-4f3a-b950-55d1fa5c8873",
+      "remarks": "king",
+      "url": "https://free.kingfu.cf/vmess/sub",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "b48ce291-b2dd-4506-ac71-3588ae44f99e",
+      "remarks": "kingt",
+      "url": "https://free.kingfu.cf/trojan/sub",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "ce872795-91b5-4c74-83f8-910009499909",
+      "remarks": "burstlinker.com",
+      "url": "https://bulink.me/sub/33x9c/vm",
+      "enabled": true,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "5060253000423458046",
+      "remarks": "xrayfree",
+      "url": "https://tt.vg/freev2",
+      "enabled": false,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "5307339115100033830",
+      "remarks": "BPXD",
+      "url": "https://raw.iqiq.io/LITTLESITE/BPXD/main/sub",
+      "enabled": true,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "5318976153022260955",
+      "remarks": "Pawdroid-Free-servers",
+      "url": "https://raw.fastgit.org/Pawdroid/Free-servers/main/sub",
+      "enabled": true,
+      "userAgent": "",
+      "groupId": ""
+    },
+    {
+      "id": "5408218468582811270",
+      "remarks": "aiboboxx",
+      "url": "https://raw.iqiq.io/aiboboxx/v2rayfree/main/v2",
+      "enabled": true,
+      "userAgent": "",
+      "groupId": ""
+    }
+  ],
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": false,
+    "mainLocation": "-32000, -32000",
+    "mainSize": "199, 34",
+    "mainLvColWidth": {
+      "def": 30,
+      "configType": 82,
+      "remarks": 450,
+      "address": 58,
+      "port": 44,
+      "security": 52,
+      "network": 75,
+      "subRemarks": 171,
+      "testResult": 116,
+      "todayDown": 60,
+      "todayUp": 70,
+      "totalDown": 96,
+      "totalUp": 41,
+      "streamSecurity": 92
+    }
+  },
+  "routings": [
+    {
+      "remarks": "全局(Global)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "绕过大陆(Whitelist)",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com",
+            "domain:bing.com",
+            "domain:vazyme.com",
+            "domain:translate.google.cn",
+            "domain:live.com",
+            "domain:sangon.com",
+            "domain:notion.so"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "geosite:cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": null,
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:private",
+            "geoip:cn"
+          ],
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": null,
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": null
+    },
+    {
+      "remarks": "directALL",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "*.vazyme.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": ""
+    },
+    {
+      "remarks": "代理优先",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "doamin:downloadmirror.intel.com",
+            "domain:example.com",
+            "domain:example2.com",
+            "domain:notion.so",
+            "domain:xvideos-cdn.comdomain:vazyme.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "domain:example.com",
+            "domain:example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:geolocation-!cn",
+            "geosite:gfw",
+            "geosite:greatfire"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:cn",
+            "geoip:private"
+          ],
+          "domain": [
+            "geosite:cn",
+            "geosite:private",
+            "geosite:google-cn",
+            "geosite:tld-cn",
+            "geosite:category-games@cn",
+            "geosite:apple"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": ""
+    },
+    {
+      "remarks": "直连优先",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "doamin:downloadmirror.intel.com",
+            "domain:example.com",
+            "domain:example2.com",
+            "domain:notion.so",
+            "domain:vazyme.com",
+            "domain:xvideos-cdn.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "domain:example.com",
+            "domain:example2.com",
+            "domain:addons.mozilla.org"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:cn",
+            "geoip:private"
+          ],
+          "domain": [
+            "geosite:cn",
+            "geosite:private",
+            "geosite:google-cn",
+            "geosite:tld-cn",
+            "geosite:category-games@cn",
+            "geosite:apple"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:gfw",
+            "geosite:greatfire"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": ""
+    },
+    {
+      "remarks": "google同步",
+      "url": "https://github-do.panbaidu.cn/https://raw.githubusercontent.com/wearehere8/V2CONFIG/main/OnlyGGsync",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": [
+            "domain:example.com",
+            "domain:example2.com",
+            "domain:notion.so",
+            "doamin:downloadmirror.intel.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "block",
+          "ip": null,
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:cn",
+            "geoip:private"
+          ],
+          "domain": [
+            "geosite:apple",
+            "geosite:category-games@cn",
+            "geosite:cn",
+            "geosite:google-cn",
+            "geosite:private",
+            "geosite:tld-cn"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": false,
+      "customIcon": ""
+    },
+    {
+      "remarks": "直连优先",
+      "url": "",
+      "rules": [
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": [],
+          "domain": [
+            "geosite:google"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": [],
+          "domain": [
+            "domain:example-example.com",
+            "domain:example-example2.com"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "block",
+          "ip": [],
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "proxy",
+          "ip": null,
+          "domain": [
+            "geosite:geolocation-!cn",
+            "geosite:gfw",
+            "geosite:greatfire"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": null,
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": [
+            "geoip:cn",
+            "geoip:private"
+          ],
+          "domain": [
+            "geosite:cn",
+            "geosite:private",
+            "geosite:google-cn",
+            "geosite:tld-cn",
+            "geosite:category-games@cn",
+            "geosite:apple"
+          ],
+          "protocol": null,
+          "enabled": true
+        },
+        {
+          "type": null,
+          "port": "0-65535",
+          "inboundTag": [],
+          "outboundTag": "direct",
+          "ip": null,
+          "domain": null,
+          "protocol": null,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "locked": true,
+      "customIcon": null
+    }
+  ],
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": [
+    {
+      "eGlobalHotkey": 0,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 1,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 2,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    },
+    {
+      "eGlobalHotkey": 3,
+      "Alt": false,
+      "Control": false,
+      "Shift": false,
+      "KeyCode": null
+    }
+  ],
+  "groupItem": [],
+  "coreTypeItem": [
+    {
+      "configType": 1,
+      "coreType": 2
+    },
+    {
+      "configType": 2,
+      "coreType": 2
+    },
+    {
+      "configType": 3,
+      "coreType": 2
+    },
+    {
+      "configType": 4,
+      "coreType": 2
+    },
+    {
+      "configType": 5,
+      "coreType": 2
+    },
+    {
+      "configType": 6,
+      "coreType": 2
+    }
+  ]
+}
